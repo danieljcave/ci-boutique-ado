@@ -75,6 +75,35 @@ a.category-badge > span.badge:hover {
     color: #fff !important;
 }
 
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link {
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.btt-button:hover .btt-link {
+    background-color: black; /* Background color on hover */
+}
+
+.btt-link:hover i {
+    color: white !important; /* Arrow color on hover */
+}
+
+.btt-link i {
+    color: black; /* Initial arrow color */
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
