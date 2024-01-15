@@ -96,9 +96,14 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
+
 .btt-link {
     cursor: pointer;
-    text-decoration: none; /* Remove underline */
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,15 +111,15 @@ a.category-badge > span.badge:hover {
 }
 
 .btt-button:hover .btt-link {
-    background-color: black; /* Background color on hover */
+    background-color: black;
 }
 
 .btt-link:hover i {
-    color: white !important; /* Arrow color on hover */
+    color: white !important;
 }
 
 .btt-link i {
-    color: black; /* Initial arrow color */
+    color: black;
 }
 
 /* -------------------------------- Media Queries */
