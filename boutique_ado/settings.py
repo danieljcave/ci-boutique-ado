@@ -30,8 +30,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1',
-                 '8000-danieljcave-ci-boutique-vn0ktqp5sh.us2.codeanyapp.com']
+                 '8000-danieljcave-ciboutiquea-d60ilcn6ury.ws-eu107.gitpod.io']
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-danieljcave-ciboutiquea-d60ilcn6ury.ws-eu107.gitpod.io',
+'http://8000-danieljcave-ciboutiquea-d60ilcn6ury.ws-eu107.gitpod.io']
 
 # Application definition
 
